@@ -1,15 +1,29 @@
-# hijri-date-converter
+# Hijri Date Converter
 
-To install dependencies:
+A simple tool to convert Gregorian dates to Hijri (Islamic) dates.
 
-```bash
-bun install
+## Installation (NPM)
+
+```
+npm install hijri-date-converter
 ```
 
-To run:
+## Usage
 
-```bash
-bun run index.ts
+```js
+import { toHijri } from "hijri-date-converter";
+
+const now = new Date();
+
+toHijri(now); // { year: 1444, month: 11, day: 1 }
+toHijri(new Date(2023, 4, 21)); // { year: 1444, month: 11, day: 1 }
+toHijri([2023, 5, 21]); // { year: 1444, month: 11, day: 1 }
 ```
 
-This project was created using `bun init` in bun v1.1.36. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Contributing
+
+If you encounter any issues or have suggestions, please submit them via issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/alwalxed/hijri-date-converter/blob/main/LICENSE) file for details.
