@@ -1,6 +1,6 @@
 {
   "name": "hijri-date-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to convert Gregorian dates to Hijri dates",
   "module": "index.ts",
   "type": "module",
