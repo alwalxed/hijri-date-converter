@@ -1,6 +1,6 @@
 # Hijri Date Converter
 
-A simple tool to convert Gregorian dates to Hijri (Islamic) dates.
+A package to convert Gregorian dates to Hijri dates.
 
 ## Installation (NPM)
 
